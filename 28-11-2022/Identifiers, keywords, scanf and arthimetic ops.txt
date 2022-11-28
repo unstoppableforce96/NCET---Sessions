@@ -1,0 +1,65 @@
+Format Specifiers	
+dtype			format specifier
+int			%d or %i
+float			%f
+double		%lf
+char			%c
+
+
+Identifiers
+Names we give to variables, functions, structures, arrays are called as 
+identifiers.
+Rules to create identifier names:
+1. Identifier name can be alphanumeric, but it should not start with a digit.
+number1 --> valid
+1stnumber --> invalid
+2. No other special character is allowed, except underscore (_).
+number@1 --> invalid
+number_1 --> valid
+3. Identifier name can start with an underscore(_)
+_number --> Vaild
+4. You cannot have any white spaces within identifier names.
+first name --> invalid
+firstName --> valid
+first_name --> valid
+5. You cannot use a keyword as an identifier.
+Keywords are reserved words
+int, float, char, double, if, else, for, while
+6. Identifier names are case sensitive.
+Name
+name
+NAME, these 3 will be treated as different variables due to case differences.
+
+scanf() --> input function
+format specifier
+int --> %d
+float --> %f
+char --> %c
+Syntax:
+int num; // int --> 4 bytes 1000
+scanf("%d", &num); // & --> ampersand
+
+
+printf() --> output function
+
+
+Operators:
+1. Unary --> single operand
+2. Binary --> two operands
+
+Binary Operators
+10 + 20
+Operand(s): The ones on which the opration is being performed 10 20
+Operator: The one which is performing the opeation +
+
+1. Arithmetic
++, -, * (asterisk), /, %
++ --> Add --> sum
+- --> Subtract --> diff
+* --> Mul --> pro
+/ --> div --> quo
+% --> div --> remainder
+2. Relational
+3. Logical (except not)
+4. Assignment
+5. Bitwise (complement)
