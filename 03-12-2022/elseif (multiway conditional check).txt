@@ -1,0 +1,38 @@
+Two way conditional check
+Two possible outcomes, out of which one will be the answer
+Logical Operators (&&, ||)
+Positive or Negative
+Even or Odd
+Profit or Loss
+
+No
++ve or -ve --> -10, 10, 0
+p/l --> cp = 100, sp = 90 --> Loss
+cp = 90, sp = 100 --> Profit
+cp = 100, sp = 100 --> No loss no gain
+
+Multiway conditional check
+more than two possible outcomes
+else if() statement:
+
+1. else if should always has a previous if
+2. else if takes a condition, just like if
+3. when condition in if is evaluated to false, the flow comes to else if statement
+4. an if statement can have more than one else if statement, but only else statement
+5. it is possible to not write an else for an if statement ever after writing some else if statements
+
+
+
+valid structure
+if()
+else if()
+else if()
+else if()
+
+
+valid structure
+if()
+else if()
+else if()
+else if()
+else
