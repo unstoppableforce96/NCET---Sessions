@@ -1,0 +1,114 @@
+Conditional Statements
+Converting numeric grade to character grade
+
+marks >= 90 --> O
+80<= marks < 90 --> A
+70 <= marks < 80 --> B
+60 <= marks < 70 --> C
+50 <= marks < 60 --> D
+<50 --> E
+
+if
+else if()s
+else
+
+
+Nesting of conditional Statements
+The largest of three distinct integers
+a		b		c
+10		20		30
+if (a > b && a > c) ans a
+else if (b > c && b > a) ans b
+else c
+
+or
+
+if a > b
+	if a > c
+		a is largest
+	else
+		c is largest
+else
+	if b > c
+		b is largest
+	else 
+		c is largest
+
+
+
+1. Arithmetic Operators
+2. Relational Operators
+3. Logical
+4. Assignment Operators
+= --> Assign --> used to assign values to variables
++= --> Add and assign
+-= --> Subtract and assign
+*= --> Mulitiply and assign
+/= --> Divide and assign (quotient)
+%= --> Divided and assign (remainder)
+Assignment operators change the value of the left operand
+left operand assg.opt right operator
+int a;
+a = 10;
+
++=
+
+We lend money 4 persons
+p1		p2		p3		p4
+100	350	200	150
+
+
+money = 0
+money += 100 // 100
+money += p2
+money += p3
+money += p4
+800
+
+(float) a /= b
+
+
+
+a += 100 --> a = a + 100
+a -= 20 --> a = a - 20
+a *= 4 --> a = a * 4
+
+
+
+
+
+
+
+
+
+
+
+Increment / Decrement Operators
+++, --
+++ is going to increment the value of the variable by 1
+-- is going to decrement the value of the variable by 1
+
+pre-increment --> ++a
+post-increment --> a++
+
+a = 10;
+a++; // a = 11
+
+a = 10
+a--; // a = 9
+
+
+
+True --> 1
+False --> 0
+
+
+
+
+
+
+
+
+
+
+

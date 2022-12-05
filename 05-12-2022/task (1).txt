@@ -1,0 +1,57 @@
+Take the marks (out of 100) of  a student in 5 subjects 
+English
+Maths
+Physics
+Chemistry
+Computer Science respectively. 
+And do the following
+
+If marks in each subject >=35 --> PASS
+if and only if student is passed
+Print total marks obtained
+Print Percentage
+Based on Percentage grade the students on following criteria
+Grading Criteria
+per>=90 --> O
+80<=per<90 --> A
+70<=per<80 --> B
+60<=per<70 --> C
+50<=per<60 --> D
+35<=per<50 --> E
+
+
+else --> FAIL
+If and only if student is failed
+print the names of the subjects student failed in
+
+Example:
+Input 1:
+35 35 35 35 35 
+Output 1:
+PASS
+Total marks: 175
+Percentage: 35.00
+Grade: O
+
+Input 2:
+90 90 90 90 25
+Output 2:
+FAIL
+Failed in CS by 10 marks
+
+
+Input 3:
+50 50 50 50 50
+OUtput 3:
+PASS
+Total marks: 250
+Percentage: 50.00
+Grade: D
+
+
+Input 4:
+45 25 45 20 60
+Output 4:
+FAIL
+Failed in Maths by 10 marks
+Failed in Chemistry by 15 marks
