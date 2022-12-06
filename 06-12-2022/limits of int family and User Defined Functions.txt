@@ -1,0 +1,65 @@
+Data types
+int --> 4 bytes --> 2^31 - 1 --> %d or %i --> -2^31
+short --> 2 bytes --> 2 ^ 15 - 1 --> %hd or %hi -2^15
+long --> 4 bytes --> 2^31 - 1 --> %ld or %li --> -2^31
+long long --> 8 bytes --> 2^63 - 1 --> %lld or %lli --> -2^63
+
+
+sizeof(datatype or variable) will give us how much memory (in bytes) the datatype or variable of that type will occupy in the computer memory.
+
+Upper limits:
+short a = 32767;
+int a = 2147483647;
+long a = 2147483647;
+long long a = 9223372036854775807;
+
+
+User Defined Functions
+1. Functions without parameters and without return type
+2. Functions with parameters but without return types
+3. Functions with parameters and with return type
+4. Functions without parameters and with return type
+
+Every function will have two things:
+1. Function Defintion (Creating the functionality (generalized))
+2. Function call (Trying to use the functinality of defined function on values)
+
+Syntax of function definition 
+
+returntype function_name(parameters)
+{
+	function body;	
+}
+
+Here,
+returntype is the datatype of the value that the function returns, it can be set to void if the function has no return type
+
+function_name, is the name we want to give to this function, so that we can call by it. function_name creation should follow all the rules that of identifier_creation
+
+parameters are the inputs to the function with which the function body will be developed. Sometimes parameters are optional if you want to create a function with no parameters.
+
+function body is the place we create functionality of the function.
+
+Example of a simple function definition:
+void add(int a, int b)
+{
+	printf("%d", a + b);
+}
+
+Here
+void is the returntype
+add is the function name
+a and b are inputs (parameters) to the function to work with
+printing a + b is the functionality of the function add
+
+Function Call:
+Definition of function is not enough if we want to use the function.
+We must call it put it to real use.
+Syntax:
+function_name(parameters)
+
+Example call for add function created:
+add(10, 20) // this will result in 30 being printed on the screen.
+As functions main purpose is reusability, we can call a created function as many times as we want.
+add(100, 200) // 300 is the result
+add(1000, 2000) // 300 is the result
