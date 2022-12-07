@@ -1,0 +1,69 @@
+Functions with parameters with return type
+void add(int a, int b) // function without return type
+{
+	printf("%d", a + b);
+}
+
+
+int ADD(int a, int b) // function with return type
+{
+	return a + b;
+}
+
+void pavan(int a, int b) // 10 20
+{
+	printf("%d", a + b); // 30
+}
+
+
+
+int PAVAN(int a, int b)
+{
+	return a + b;
+}
+
+
+For a function that is having a return type, we have to make  the function call in any of the following three ways
+1. Make the function call directly in printf() statement
+2. Assign the function call to a variable of similar type
+3. We can directly insert the function call in a condition
+
+
+
+
+
+
+
+Repetition (Looping)
+Looping --> Doing something again and again based on a condition to get something done.
+Print the numbers from 1 to 10
+1		2		3		4		5		6		7		8		9		10
+  +1    +1   +1    +1   +1    +1   +1    +1   +1
+
+
+while
+syntax:
+while (condition)
+{
+	// do some stuff
+}
+
+
+while eating --> as long as eating
+while walking --> as long as we are walking
+while running
+while watching
+
+
+
+Looping contains three parts
+1. Initialization
+2. Condition
+3. Updation
+
+
+syntax of for loop:
+for (initialization; condition; updation)
+{
+	// body
+}
